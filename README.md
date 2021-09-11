@@ -37,6 +37,6 @@ func main() {
 
 ### 使用编译好的包
 
-从页面 [https://github.com/Luoxin/go-jsdelivr/releases/latest](https://github.com/Luoxin/go-jsdelivr/releases/latest)
-获取最新版的二进制包下载并解压
-`jsdelivr <url>`
+- 从页面 [https://github.com/Luoxin/go-jsdelivr/releases/latest](https://github.com/Luoxin/go-jsdelivr/releases/latest)
+  获取最新版的二进制包下载并解压
+- `jsdelivr <url>`
