@@ -10,13 +10,13 @@ on:
             - deleted
             - prereleased
             - released
-        label:
-            types:
-                - created
-                - edited
-        push:
-            branches:
-                - master
+    label:
+        types:
+            - created
+            - edited
+    push:
+        branches:
+            - master
     pull_request:
         branches:
             - master
