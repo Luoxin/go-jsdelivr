@@ -16,10 +16,11 @@ import (
 )
 
 func main() {
-	nu, err := go_jsdelivr.Cover("")
+	nu, err := go_jsdelivr.Cover("https://raw.githubusercontent.com/Luoxin/go-jsdelivr/master/README.md")
 	if err != nil {
 		fmt.Println(err)
 	} else {
+		// https://cdn.jsdelivr.net/gh/Luoxin/go-jsdelivr@master/README.md
 		fmt.Println(nu)
 	}
 }
