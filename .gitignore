@@ -1091,9 +1091,6 @@ project/plugins/project/
 *.mmdb
 *.vdb
 
-# go sum
-go.sum
-output/
 dist/
 .idea/
 .vcode/
